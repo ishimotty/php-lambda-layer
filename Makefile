@@ -17,7 +17,7 @@ upload71: php71.zip
 upload73: php73.zip
 	./upload.sh 7.4
 
-upload74: php73.zip
+upload74: php74.zip
 	./upload.sh 7.4
 
 publish71: php71.zip
