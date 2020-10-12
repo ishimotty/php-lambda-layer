@@ -6,10 +6,10 @@ echo "Building layer for PHP 7.$PHP_MINOR_VERSION - using Remi repository"
 
 yum install -y wget
 yum install -y yum-utils
-wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
-wget https://rpms.remirepo.net/enterprise/remi-release-7.rpm
-rpm -Uvh epel-release-latest-7.noarch.rpm
-rpm -Uvh remi-release-7.rpm
+wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-6.noarch.rpm
+wget https://rpms.remirepo.net/enterprise/remi-release-6.rpm
+rpm -Uvh epel-release-latest-6.noarch.rpm
+rpm -Uvh remi-release-6.rpm
 
 yum-config-manager --enable remi-php7${PHP_MINOR_VERSION}
 
